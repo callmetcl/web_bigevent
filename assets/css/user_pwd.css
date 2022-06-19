@@ -1,0 +1,19 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 15px;
+    background-color: #eee;
+    font-size: 12px !important;
+}
+
+.layui-form {
+    width: 500px;
+}
+
+.red {
+    color: red;
+}
