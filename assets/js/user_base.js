@@ -22,12 +22,7 @@ $(function() {
                 return layer.msg(res.message)
             }
             layer.msg(res.message)
-            if (window.parent.parent.getUserInfo) {
-                window.parent.parent.getUserInfo()
-            } else {
-                console.log(window.parent.parent.getUserInfo)
-            }
-            console.log('?????????');
+            window.parent.getUserInfo()
         })
     })
 

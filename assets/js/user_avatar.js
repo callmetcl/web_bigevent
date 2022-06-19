@@ -18,10 +18,11 @@ $(function() {
     $image.cropper(options)
 
 
+    // 点击【选择图片】，默认将input file文件弹出来
     $('#chocePic').on('click', function() {
-        $('#fileup').click()
-    })
-
+            $('#fileup').click()
+        })
+        // 当input file 发生变化时
     $('#fileup').on('change', function(e) {
         if (e.target.files.length < 1) {
             return layer.msg('用户取消了上传图片')
